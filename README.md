@@ -9,7 +9,7 @@ how to add python libs:
 * generate with: ``` anchorpy client-gen ./idl/candy_machine.json ./src --program-id cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ ```
 * et voilà 
 
-Note that this are still some fixes that need to be done at times. i.e. BorshPubkey not being written to the python file.
+Note that there are still some fixes that need to be done at times. i.e. BorshPubkey not being written to the python file.
 
 ### contracts with python libs:
 * candy machine
