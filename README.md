@@ -1,6 +1,16 @@
-# Metaplex Program Library
+# Metaplex Program Library 
 
-Metaplex smart contracts and SDK.
+Metaplex smart contracts and SDK with Python libs.
+
+how to add python libs:
+* python>=3.9 is required
+* install anchorpy[cli] preferrably with virtualenv
+* may require manually fetching/building idl (may not work with ts-idl)
+* generate with: ``` anchorpy client-gen ./idl/candy_machine.json ./src --program-id cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ ```
+* et voilà 
+
+Note that this are still some fixes that need to be done at times. i.e. BorshPubkey not being written to the python file.
+
 
 ## Metaplex Contracts
 
