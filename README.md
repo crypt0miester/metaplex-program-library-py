@@ -11,6 +11,11 @@ how to add python libs:
 
 Note that this are still some fixes that need to be done at times. i.e. BorshPubkey not being written to the python file.
 
+### contracts with python libs:
+* candy machine
+* auction house (untested)
+* token entangler (untested)
+* token metadata
 
 ## Metaplex Contracts
 
